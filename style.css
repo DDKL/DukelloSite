@@ -1,5 +1,10 @@
+/*h1, h2, h3, h4 {
+	font-family: 'Ubuntu', sans-serif;
+}*/
+
 body {
 	background: #F9E933;
+	font-size: 100%;
 	/*width: 855px;
 	margin: auto;*/
 }
@@ -16,34 +21,56 @@ header .container, main .container, footer .container {
 header {
 	background: white;
 	overflow: auto;
+	padding: 50px;
+	color: blue;
 }
 
 header h1 {
 	float: left;
 	width: 570px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 40px;
+	font-style: italic;
+	font
 }
 
 header nav {
 	float: right;
 	width: 285px;
+	font-family: 'Droid Sans', sans-serif;
 }
 
 main {
 	background: white;
+	padding-bottom: 150px;
 }
 
 main h2, h3, p, ul {
 	float: left;
 	width: 570px;
+	font-family: 'Ubuntu', sans-serif;
 }
 
+main h2 {
+	font-size: 30px;
+}
+
+main h3 {
+	font-size: 25px;
+}
 
 footer .contact {
 	float: left;
 	width: 570px;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+footer h5 {
+	font-size: 30px;
 }
 
 footer .sitemap {
 	float: right;
 	width: 285px;
+	font-family: 'Droid Sans', sans-serif;
 }
