@@ -3,7 +3,7 @@
 }*/
 
 a {
-	color: red;
+	color: gray;
 	text-decoration: none;
 }
 
@@ -16,51 +16,56 @@ a.headlink:hover {
 }
 
 body {
-	background: #F9E933;
+	background: #E7E7E7;
 	font-size: 100%;
 	/*width: 855px;
 	margin: auto;*/
 }
 
 header, main, footer {
-	min-width: 855px;
+	/*min-width: 855px;*/
+	min-width: 1130px;
 }
 
 header .container, main .container, footer .container {
-	max-width: 855px;
+	max-width: 1130px;
 	margin: auto;
 }
 
 header {
-	background: white;
+	background: #000000;
 	overflow: auto;
-	padding: 50px;
-	color: blue;
+	padding: 20px;
+	color: white;
 }
 
 header h1 {
 	float: left;
-	width: 570px;
+	/*width: 570px;*/
+	width: 730px;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 40px;
 	font-style: italic;
-	font
 }
 
 header nav {
 	float: right;
-	width: 285px;
+	/*width: 285px;*/
+	width: 400px;
 	font-family: 'Droid Sans', sans-serif;
 }
 
 main {
-	background: white;
-	padding-bottom: 150px;
+	background: #E7E7E7;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	color: #222222;
 }
 
 main h2, h3, p, ul {
 	float: left;
-	width: 570px;
+	/*width: 570px;*/
+	width: 730px;
 	font-family: 'Ubuntu', sans-serif;
 }
 
@@ -73,17 +78,21 @@ main h3 {
 }
 
 footer .contact {
+	color: #222222;
 	float: left;
-	width: 570px;
+	/*width: 570px;*/
+	width: 730px;
 	font-family: 'Droid Sans', sans-serif;
 }
 
 footer h5 {
-	font-size: 30px;
+	font-size: 20px;
 }
 
 footer .sitemap {
+	color: #222222;
 	float: right;
-	width: 285px;
+	/*width: 285px;*/
+	width: 400px;
 	font-family: 'Droid Sans', sans-serif;
 }
