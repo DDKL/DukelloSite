@@ -35,7 +35,7 @@ header .container, main .container, footer .container {
 header {
 	background: #000000;
 	overflow: auto;
-	padding: 20px;
+	padding: 10px;
 	color: white;
 }
 
